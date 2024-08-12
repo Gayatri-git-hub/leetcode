@@ -25,8 +25,21 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0129-sum-root-to-leaf-numbers](https://github.com/Gayatri-git-hub/leetcode/tree/master/0129-sum-root-to-leaf-numbers) |
+| [0133-clone-graph](https://github.com/Gayatri-git-hub/leetcode/tree/master/0133-clone-graph) |
 ## Binary Tree
 |  |
 | ------- |
 | [0129-sum-root-to-leaf-numbers](https://github.com/Gayatri-git-hub/leetcode/tree/master/0129-sum-root-to-leaf-numbers) |
+## Hash Table
+|  |
+| ------- |
+| [0133-clone-graph](https://github.com/Gayatri-git-hub/leetcode/tree/master/0133-clone-graph) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0133-clone-graph](https://github.com/Gayatri-git-hub/leetcode/tree/master/0133-clone-graph) |
+## Graph
+|  |
+| ------- |
+| [0133-clone-graph](https://github.com/Gayatri-git-hub/leetcode/tree/master/0133-clone-graph) |
 <!---LeetCode Topics End-->
