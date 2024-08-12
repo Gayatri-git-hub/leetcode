@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0078-subsets](https://github.com/Gayatri-git-hub/leetcode/tree/master/0078-subsets) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Gayatri-git-hub/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0219-contains-duplicate-ii](https://github.com/Gayatri-git-hub/leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0777-toeplitz-matrix](https://github.com/Gayatri-git-hub/leetcode/tree/master/0777-toeplitz-matrix) |
 | [1028-interval-list-intersections](https://github.com/Gayatri-git-hub/leetcode/tree/master/1028-interval-list-intersections) |
 | [1046-max-consecutive-ones-iii](https://github.com/Gayatri-git-hub/leetcode/tree/master/1046-max-consecutive-ones-iii) |
@@ -16,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sliding Window
 |  |
 | ------- |
+| [0219-contains-duplicate-ii](https://github.com/Gayatri-git-hub/leetcode/tree/master/0219-contains-duplicate-ii) |
 | [1046-max-consecutive-ones-iii](https://github.com/Gayatri-git-hub/leetcode/tree/master/1046-max-consecutive-ones-iii) |
 ## Prefix Sum
 |  |
@@ -39,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Gayatri-git-hub/leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0133-clone-graph](https://github.com/Gayatri-git-hub/leetcode/tree/master/0133-clone-graph) |
+| [0219-contains-duplicate-ii](https://github.com/Gayatri-git-hub/leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0398-random-pick-index](https://github.com/Gayatri-git-hub/leetcode/tree/master/0398-random-pick-index) |
 ## Breadth-First Search
 |  |
