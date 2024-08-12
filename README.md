@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0078-subsets](https://github.com/Gayatri-git-hub/leetcode/tree/master/0078-subsets) |
+| [0777-toeplitz-matrix](https://github.com/Gayatri-git-hub/leetcode/tree/master/0777-toeplitz-matrix) |
 | [1028-interval-list-intersections](https://github.com/Gayatri-git-hub/leetcode/tree/master/1028-interval-list-intersections) |
 | [1046-max-consecutive-ones-iii](https://github.com/Gayatri-git-hub/leetcode/tree/master/1046-max-consecutive-ones-iii) |
 ## Binary Search
@@ -86,4 +87,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0398-random-pick-index](https://github.com/Gayatri-git-hub/leetcode/tree/master/0398-random-pick-index) |
+## Matrix
+|  |
+| ------- |
+| [0777-toeplitz-matrix](https://github.com/Gayatri-git-hub/leetcode/tree/master/0777-toeplitz-matrix) |
 <!---LeetCode Topics End-->
