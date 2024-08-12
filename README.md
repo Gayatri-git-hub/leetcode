@@ -71,4 +71,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0078-subsets](https://github.com/Gayatri-git-hub/leetcode/tree/master/0078-subsets) |
+| [0371-sum-of-two-integers](https://github.com/Gayatri-git-hub/leetcode/tree/master/0371-sum-of-two-integers) |
+## Math
+|  |
+| ------- |
+| [0371-sum-of-two-integers](https://github.com/Gayatri-git-hub/leetcode/tree/master/0371-sum-of-two-integers) |
 <!---LeetCode Topics End-->
