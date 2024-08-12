@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Gayatri-git-hub/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0219-contains-duplicate-ii](https://github.com/Gayatri-git-hub/leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0777-toeplitz-matrix](https://github.com/Gayatri-git-hub/leetcode/tree/master/0777-toeplitz-matrix) |
+| [0990-verifying-an-alien-dictionary](https://github.com/Gayatri-git-hub/leetcode/tree/master/0990-verifying-an-alien-dictionary) |
 | [1028-interval-list-intersections](https://github.com/Gayatri-git-hub/leetcode/tree/master/1028-interval-list-intersections) |
 | [1046-max-consecutive-ones-iii](https://github.com/Gayatri-git-hub/leetcode/tree/master/1046-max-consecutive-ones-iii) |
 ## Binary Search
@@ -43,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0133-clone-graph](https://github.com/Gayatri-git-hub/leetcode/tree/master/0133-clone-graph) |
 | [0219-contains-duplicate-ii](https://github.com/Gayatri-git-hub/leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0398-random-pick-index](https://github.com/Gayatri-git-hub/leetcode/tree/master/0398-random-pick-index) |
+| [0990-verifying-an-alien-dictionary](https://github.com/Gayatri-git-hub/leetcode/tree/master/0990-verifying-an-alien-dictionary) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -61,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0008-string-to-integer-atoi](https://github.com/Gayatri-git-hub/leetcode/tree/master/0008-string-to-integer-atoi) |
 | [0014-longest-common-prefix](https://github.com/Gayatri-git-hub/leetcode/tree/master/0014-longest-common-prefix) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Gayatri-git-hub/leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0990-verifying-an-alien-dictionary](https://github.com/Gayatri-git-hub/leetcode/tree/master/0990-verifying-an-alien-dictionary) |
 ## Backtracking
 |  |
 | ------- |
