@@ -1,23 +1,22 @@
 class Solution {
 
-    private int calcSteps(int start, int steps, int[] memo){
+    private int calcSteps(int start, int n, int[] memo){
 
-        if (start > steps) return 0;
-        if (start == steps) return 1;
+        if(start > n) return 0;
+        if(start == n) return 1;
 
-        if (!(memo[start] >0)) 
-            memo[start] = calcSteps(start+1, steps, memo) + calcSteps(start+2, steps, memo);
+        if(memo[start] > 0) return memo[start];
+        
+        memo[start] = calcSteps(start+1, n, memo) + calcSteps(start+2, n, memo);
         
         return memo[start];
-
-    } 
-
+    }
+   
     public int climbStairs(int n) {
 
-        int[] memo = new int[n];    
+        int memo[] = new int[n];
 
         return calcSteps(0, n, memo);
-   
         
     }
 }
