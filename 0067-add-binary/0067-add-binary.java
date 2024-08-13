@@ -1,6 +1,24 @@
 class Solution {
     public String addBinary(String a, String b) {
-        StringBuilder sb = new StringBuilder();
+
+        //Option 3) using Bit manipulation
+        /*
+        int x= Integer.parseInt(a, 2);
+        int y = Integer.parseInt(b, 2);
+
+        while (y != 0) {
+            int temp = (x & y) << 1;
+            x= x ^ y;
+            y = temp;
+        }
+
+       return Integer.toBinaryString(x);  */
+
+        //Option 2
+        //return Integer.toBinaryString(Integer.parseInt(a, 2) + Integer.parseInt(b, 2));
+
+        //option1()
+         StringBuilder sb = new StringBuilder();
         int i = a.length() - 1;
         int j = b.length() -1;
         int carry = 0;
@@ -18,6 +36,6 @@ class Solution {
         }
         if (carry == 1)
             sb.append('1');
-        return sb.reverse().toString();        
+        return sb.reverse().toString();         
     }
 }
