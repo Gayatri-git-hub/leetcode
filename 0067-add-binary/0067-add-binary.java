@@ -18,7 +18,7 @@ class Solution {
         //return Integer.toBinaryString(Integer.parseInt(a, 2) + Integer.parseInt(b, 2));
 
         //option1()
-         StringBuilder sb = new StringBuilder();
+        StringBuilder sb = new StringBuilder();
         int i = a.length() - 1;
         int j = b.length() -1;
         int carry = 0;
