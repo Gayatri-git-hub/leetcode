@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Gayatri-git-hub/leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0054-spiral-matrix](https://github.com/Gayatri-git-hub/leetcode/tree/master/0054-spiral-matrix) |
 | [0078-subsets](https://github.com/Gayatri-git-hub/leetcode/tree/master/0078-subsets) |
 | [0118-pascals-triangle](https://github.com/Gayatri-git-hub/leetcode/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Gayatri-git-hub/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -116,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/Gayatri-git-hub/leetcode/tree/master/0054-spiral-matrix) |
 | [0777-toeplitz-matrix](https://github.com/Gayatri-git-hub/leetcode/tree/master/0777-toeplitz-matrix) |
 ## Dynamic Programming
 |  |
@@ -131,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/Gayatri-git-hub/leetcode/tree/master/0054-spiral-matrix) |
 | [0067-add-binary](https://github.com/Gayatri-git-hub/leetcode/tree/master/0067-add-binary) |
 ## String Matching
 |  |
