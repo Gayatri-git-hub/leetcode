@@ -8,14 +8,33 @@ class Solution {
 
         return memo.get(i);
     }
+
+    
+
     public int rob(int[] nums) {
+
+        int[] target = new int[nums.length];
+
+        if(nums.length == 0) return 0;
+        if(nums.length == 1) return nums[0];
+        if(nums.length == 2) return Math.max(nums[1], nums[0]);
+        
+        target[0] = nums[0];
+        target[1]= Math.max(nums[1], nums[0]);
+
+        for(int i = 2;  i< nums.length; i++){
+            target[i] = Math.max(target[i-1], target[i-2] + nums[i]);
+        }
+
+        return target[nums.length-1];
+
         // Dynamic Programming Problem
 
         //Approach 1) Top-Down Using memoization
         //return dp(nums, nums.length-1);
         
         //Approach 2) Bottom-up using Iterator
-        if (nums.length == 0) return 0;
+      /*  if (nums.length == 0) return 0;
         if (nums.length == 1) return nums[0];
 
         int[] dpArr = new int[nums.length];
@@ -27,6 +46,6 @@ class Solution {
             dpArr[i] = Math.max(dpArr[i-1], dpArr[i-2] + nums[i]);
         }
 
-        return dpArr[nums.length-1];
+        eturn dpArr[nums.length-1];  */
     }
 }
