@@ -33,17 +33,20 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0129-sum-root-to-leaf-numbers](https://github.com/Gayatri-git-hub/leetcode/tree/master/0129-sum-root-to-leaf-numbers) |
+| [0543-diameter-of-binary-tree](https://github.com/Gayatri-git-hub/leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [1780-lowest-common-ancestor-of-a-binary-tree-ii](https://github.com/Gayatri-git-hub/leetcode/tree/master/1780-lowest-common-ancestor-of-a-binary-tree-ii) |
 ## Depth-First Search
 |  |
 | ------- |
 | [0129-sum-root-to-leaf-numbers](https://github.com/Gayatri-git-hub/leetcode/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0133-clone-graph](https://github.com/Gayatri-git-hub/leetcode/tree/master/0133-clone-graph) |
+| [0543-diameter-of-binary-tree](https://github.com/Gayatri-git-hub/leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [1780-lowest-common-ancestor-of-a-binary-tree-ii](https://github.com/Gayatri-git-hub/leetcode/tree/master/1780-lowest-common-ancestor-of-a-binary-tree-ii) |
 ## Binary Tree
 |  |
 | ------- |
 | [0129-sum-root-to-leaf-numbers](https://github.com/Gayatri-git-hub/leetcode/tree/master/0129-sum-root-to-leaf-numbers) |
+| [0543-diameter-of-binary-tree](https://github.com/Gayatri-git-hub/leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [1780-lowest-common-ancestor-of-a-binary-tree-ii](https://github.com/Gayatri-git-hub/leetcode/tree/master/1780-lowest-common-ancestor-of-a-binary-tree-ii) |
 ## Hash Table
 |  |
