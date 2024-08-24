@@ -87,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0067-add-binary](https://github.com/Gayatri-git-hub/leetcode/tree/master/0067-add-binary) |
 | [0151-reverse-words-in-a-string](https://github.com/Gayatri-git-hub/leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0990-verifying-an-alien-dictionary](https://github.com/Gayatri-git-hub/leetcode/tree/master/0990-verifying-an-alien-dictionary) |
+| [1128-remove-all-adjacent-duplicates-in-string](https://github.com/Gayatri-git-hub/leetcode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 ## Backtracking
 |  |
 | ------- |
@@ -149,4 +150,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Gayatri-git-hub/leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+## Stack
+|  |
+| ------- |
+| [1128-remove-all-adjacent-duplicates-in-string](https://github.com/Gayatri-git-hub/leetcode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 <!---LeetCode Topics End-->
