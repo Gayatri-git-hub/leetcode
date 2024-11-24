@@ -8,29 +8,29 @@
  * }
  */
 class Solution {
-    TreeNode ans;
-
-    private boolean dfs(TreeNode node, TreeNode p, TreeNode q){
-        if(node == null) return false;
-
-        
-        boolean leftNode = dfs(node.left, p, q);
-        boolean righttNode = dfs(node.right, p, q);
-
-        boolean isNodeItself = (node == p || node == q);
-
-        if(((leftNode ? 1:0) + (righttNode? 1:0) + (isNodeItself ? 1:0)) == 2) {
-            ans = node;
-            return true;
-        }
-
-        if (leftNode || righttNode || isNodeItself) return true;
-  
-        return false;
-    }
+    TreeNode answer;
 
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-      dfs(root, p, q);
-      return ans;
+        
+        dfs(root, p.val, q.val);
+        
+        return answer;
+
+    }
+
+    public Boolean dfs(TreeNode node, int p, int q){
+
+        if(node == null) return false;
+
+        int left = dfs(node.left, p, q) == true ? 1: 0;
+        int right = dfs(node.right, p, q) == true? 1: 0;
+
+        int mid = (node.val == p || node.val == q) ? 1:0;
+
+        if(left + right + mid >= 2) 
+            answer = node;
+        
+        return (left + right + mid > 0);
+
     }
 }
