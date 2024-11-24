@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0525-contiguous-array](https://github.com/Gayatri-git-hub/leetcode/tree/master/0525-contiguous-array) |
 | [0777-toeplitz-matrix](https://github.com/Gayatri-git-hub/leetcode/tree/master/0777-toeplitz-matrix) |
 | [0990-verifying-an-alien-dictionary](https://github.com/Gayatri-git-hub/leetcode/tree/master/0990-verifying-an-alien-dictionary) |
+| [1014-k-closest-points-to-origin](https://github.com/Gayatri-git-hub/leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1028-interval-list-intersections](https://github.com/Gayatri-git-hub/leetcode/tree/master/1028-interval-list-intersections) |
 | [1046-max-consecutive-ones-iii](https://github.com/Gayatri-git-hub/leetcode/tree/master/1046-max-consecutive-ones-iii) |
 ## Binary Search
@@ -124,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0371-sum-of-two-integers](https://github.com/Gayatri-git-hub/leetcode/tree/master/0371-sum-of-two-integers) |
 | [0398-random-pick-index](https://github.com/Gayatri-git-hub/leetcode/tree/master/0398-random-pick-index) |
 | [0523-continuous-subarray-sum](https://github.com/Gayatri-git-hub/leetcode/tree/master/0523-continuous-subarray-sum) |
+| [1014-k-closest-points-to-origin](https://github.com/Gayatri-git-hub/leetcode/tree/master/1014-k-closest-points-to-origin) |
 ## Reservoir Sampling
 |  |
 | ------- |
@@ -169,13 +171,27 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/Gayatri-git-hub/leetcode/tree/master/0169-majority-element) |
+| [1014-k-closest-points-to-origin](https://github.com/Gayatri-git-hub/leetcode/tree/master/1014-k-closest-points-to-origin) |
 ## Sorting
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/Gayatri-git-hub/leetcode/tree/master/0169-majority-element) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/Gayatri-git-hub/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
+| [1014-k-closest-points-to-origin](https://github.com/Gayatri-git-hub/leetcode/tree/master/1014-k-closest-points-to-origin) |
 ## Counting
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/Gayatri-git-hub/leetcode/tree/master/0169-majority-element) |
+## Geometry
+|  |
+| ------- |
+| [1014-k-closest-points-to-origin](https://github.com/Gayatri-git-hub/leetcode/tree/master/1014-k-closest-points-to-origin) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [1014-k-closest-points-to-origin](https://github.com/Gayatri-git-hub/leetcode/tree/master/1014-k-closest-points-to-origin) |
+## Quickselect
+|  |
+| ------- |
+| [1014-k-closest-points-to-origin](https://github.com/Gayatri-git-hub/leetcode/tree/master/1014-k-closest-points-to-origin) |
 <!---LeetCode Topics End-->
