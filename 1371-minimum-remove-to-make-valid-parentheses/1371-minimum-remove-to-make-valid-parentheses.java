@@ -16,6 +16,8 @@ class Solution {
                 }
                 else if(sk.peek().getKey() == '(')
                     sk.pop();
+                else
+                    idxSet.add(i);
                 
             } 
         }
