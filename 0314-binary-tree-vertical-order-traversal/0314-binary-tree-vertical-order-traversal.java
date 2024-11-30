@@ -1,4 +1,5 @@
-/**
+
+import java.security.interfaces.RSAMultiPrimePrivateCrtKey;/**
  * Definition for a binary tree node.
  * public class TreeNode {
  *     int val;
@@ -13,41 +14,46 @@
  *     }
  * }
  */
+
+class Node {
+    TreeNode node;
+    int col;
+    int level;
+
+    public Node(TreeNode n, int c, int l){
+        node= n;
+        col = c;
+        level = l;
+    }
+} 
 class Solution {
     public List<List<Integer>> verticalOrder(TreeNode root) {
-        List<List<Integer>> res = new ArrayList<>();
+
+        List<List<Integer>> results = new ArrayList<>();
+        if(root == null) return results;
+
+        Queue<Node> q = new LinkedList<>();
+
         Map<Integer, List<Integer>> map = new HashMap<>();
 
-        Integer minCol=0;
-        Integer maxCol = 0;
+        q.offer(new Node(root, 0, 0));
 
-        if(root == null) return res;
-        
-        Queue<Pair<Integer, TreeNode>> que = new LinkedList(); 
+        while(!q.isEmpty()){
 
-        que.offer(new Pair(0, root));
+            Node n = q.poll();
+            map.computeIfAbsent(n.col, k -> new ArrayList<Integer>()).add(n.node.val);
 
-        while(!que.isEmpty()){
-
-            Pair<Integer, TreeNode> curr = que.poll();  
-            TreeNode node =curr.getValue();
-            Integer colIdx = curr.getKey();
-
-            if(node != null){
-                if(!map.containsKey(colIdx))
-                    map.put(colIdx, new ArrayList<>());
-
-                map.get(colIdx).add(node.val);
-                que.add(new Pair(colIdx - 1, node.left));
-                que.add(new Pair(colIdx + 1, node.right));
-                
-                minCol= Math.min(minCol, colIdx);
-                maxCol= Math.max(maxCol, colIdx);
-            }
+            if(n.node.left != null)
+                q.add(new Node(n.node.left, n.col-1, n.level+1));
+            
+            if (n.node.right != null) 
+                q.add(new Node(n.node.right, n.col+1, n.level+1));
         }
-        for(Integer i=minCol; i<= maxCol; i++){
-            res.add(map.get(i));
-        }
-        return res;
+
+        map.entrySet().stream()
+        .sorted((k1, k2) -> k1.getKey().compareTo(k2.getKey()))
+        .forEach(es -> results.add(es.getValue()));
+
+        return results;
     }
 }
