@@ -99,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0151-reverse-words-in-a-string](https://github.com/Gayatri-git-hub/leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0990-verifying-an-alien-dictionary](https://github.com/Gayatri-git-hub/leetcode/tree/master/0990-verifying-an-alien-dictionary) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/Gayatri-git-hub/leetcode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
+| [1371-minimum-remove-to-make-valid-parentheses](https://github.com/Gayatri-git-hub/leetcode/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 ## Backtracking
 |  |
 | ------- |
@@ -166,6 +167,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/Gayatri-git-hub/leetcode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
+| [1371-minimum-remove-to-make-valid-parentheses](https://github.com/Gayatri-git-hub/leetcode/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 ## Database
 |  |
 | ------- |
