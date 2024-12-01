@@ -13,13 +13,31 @@ class Solution {
     }
     
     public int pickIndex() {
-        int target = rnd.nextInt(totalSum) ;
+        if (prefixSum.length == 1) return 0;
 
-        for(int i=0; i< prefixSum.length; i++){
+        int target = rnd.nextInt(totalSum) + 1;
+
+        /*for(int i=0; i< prefixSum.length; i++){
             if (target < prefixSum[i]) return i;
+        }*/
+        return binSearch(target, prefixSum);
+
+        
+    }
+
+    private int binSearch(int target, int[] nums){
+        int left =0;
+        int right = nums.length;
+        
+        while (left < right) {
+            int mid = (int) (left + (right - left)/2); 
+            
+            if(target > prefixSum[mid]) left = mid + 1;
+            else right =mid;
+
         }
 
-        return -1;
+        return left;
     }
 }
 
