@@ -104,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Gayatri-git-hub/leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0067-add-binary](https://github.com/Gayatri-git-hub/leetcode/tree/master/0067-add-binary) |
 | [0151-reverse-words-in-a-string](https://github.com/Gayatri-git-hub/leetcode/tree/master/0151-reverse-words-in-a-string) |
+| [0227-basic-calculator-ii](https://github.com/Gayatri-git-hub/leetcode/tree/master/0227-basic-calculator-ii) |
 | [0990-verifying-an-alien-dictionary](https://github.com/Gayatri-git-hub/leetcode/tree/master/0990-verifying-an-alien-dictionary) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/Gayatri-git-hub/leetcode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/Gayatri-git-hub/leetcode/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
@@ -134,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0009-palindrome-number](https://github.com/Gayatri-git-hub/leetcode/tree/master/0009-palindrome-number) |
 | [0067-add-binary](https://github.com/Gayatri-git-hub/leetcode/tree/master/0067-add-binary) |
 | [0070-climbing-stairs](https://github.com/Gayatri-git-hub/leetcode/tree/master/0070-climbing-stairs) |
+| [0227-basic-calculator-ii](https://github.com/Gayatri-git-hub/leetcode/tree/master/0227-basic-calculator-ii) |
 | [0371-sum-of-two-integers](https://github.com/Gayatri-git-hub/leetcode/tree/master/0371-sum-of-two-integers) |
 | [0398-random-pick-index](https://github.com/Gayatri-git-hub/leetcode/tree/master/0398-random-pick-index) |
 | [0523-continuous-subarray-sum](https://github.com/Gayatri-git-hub/leetcode/tree/master/0523-continuous-subarray-sum) |
@@ -174,6 +176,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0227-basic-calculator-ii](https://github.com/Gayatri-git-hub/leetcode/tree/master/0227-basic-calculator-ii) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/Gayatri-git-hub/leetcode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/Gayatri-git-hub/leetcode/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 ## Database
