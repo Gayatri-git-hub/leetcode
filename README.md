@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0314-binary-tree-vertical-order-traversal](https://github.com/Gayatri-git-hub/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0543-diameter-of-binary-tree](https://github.com/Gayatri-git-hub/leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [1780-lowest-common-ancestor-of-a-binary-tree-ii](https://github.com/Gayatri-git-hub/leetcode/tree/master/1780-lowest-common-ancestor-of-a-binary-tree-ii) |
+| [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/Gayatri-git-hub/leetcode/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -61,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0314-binary-tree-vertical-order-traversal](https://github.com/Gayatri-git-hub/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0543-diameter-of-binary-tree](https://github.com/Gayatri-git-hub/leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [1780-lowest-common-ancestor-of-a-binary-tree-ii](https://github.com/Gayatri-git-hub/leetcode/tree/master/1780-lowest-common-ancestor-of-a-binary-tree-ii) |
+| [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/Gayatri-git-hub/leetcode/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
 ## Hash Table
 |  |
 | ------- |
@@ -73,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0523-continuous-subarray-sum](https://github.com/Gayatri-git-hub/leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/Gayatri-git-hub/leetcode/tree/master/0525-contiguous-array) |
 | [0990-verifying-an-alien-dictionary](https://github.com/Gayatri-git-hub/leetcode/tree/master/0990-verifying-an-alien-dictionary) |
+| [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/Gayatri-git-hub/leetcode/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -89,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Gayatri-git-hub/leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0151-reverse-words-in-a-string](https://github.com/Gayatri-git-hub/leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [1028-interval-list-intersections](https://github.com/Gayatri-git-hub/leetcode/tree/master/1028-interval-list-intersections) |
+| [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/Gayatri-git-hub/leetcode/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
 ## String
 |  |
 | ------- |
