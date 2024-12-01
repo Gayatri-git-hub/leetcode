@@ -68,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Gayatri-git-hub/leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0133-clone-graph](https://github.com/Gayatri-git-hub/leetcode/tree/master/0133-clone-graph) |
+| [0160-intersection-of-two-linked-lists](https://github.com/Gayatri-git-hub/leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/Gayatri-git-hub/leetcode/tree/master/0169-majority-element) |
 | [0219-contains-duplicate-ii](https://github.com/Gayatri-git-hub/leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/Gayatri-git-hub/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
@@ -91,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Gayatri-git-hub/leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Gayatri-git-hub/leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0151-reverse-words-in-a-string](https://github.com/Gayatri-git-hub/leetcode/tree/master/0151-reverse-words-in-a-string) |
+| [0160-intersection-of-two-linked-lists](https://github.com/Gayatri-git-hub/leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [1028-interval-list-intersections](https://github.com/Gayatri-git-hub/leetcode/tree/master/1028-interval-list-intersections) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/Gayatri-git-hub/leetcode/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
 ## String
@@ -113,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0160-intersection-of-two-linked-lists](https://github.com/Gayatri-git-hub/leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0850-insert-into-a-sorted-circular-linked-list](https://github.com/Gayatri-git-hub/leetcode/tree/master/0850-insert-into-a-sorted-circular-linked-list) |
 ## Trie
 |  |
