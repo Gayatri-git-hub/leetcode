@@ -38,8 +38,10 @@ class Solution {
 
         q.offer(new Node(root, 0, 0));
 
-        while(!q.isEmpty()){
+        int minCol = 0;
+        int maxCol =0;
 
+        while(!q.isEmpty()){
             Node n = q.poll();
             map.computeIfAbsent(n.col, k -> new ArrayList<Integer>()).add(n.node.val);
 
@@ -48,11 +50,19 @@ class Solution {
             
             if (n.node.right != null) 
                 q.add(new Node(n.node.right, n.col+1, n.level+1));
+
+            minCol = Math.min(minCol, n.col);
+            maxCol = Math.max(maxCol, n.col);
+            
         }
 
-        map.entrySet().stream()
+        for(int i=minCol; i<=maxCol; i++){
+           results.add(map.get(i));
+        }
+
+        /*map.entrySet().stream()
         .sorted((k1, k2) -> k1.getKey().compareTo(k2.getKey()))
-        .forEach(es -> results.add(es.getValue()));
+        .forEach(es -> results.add(es.getValue()));*/
 
         return results;
     }
