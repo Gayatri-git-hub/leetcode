@@ -138,6 +138,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0009-palindrome-number](https://github.com/Gayatri-git-hub/leetcode/tree/master/0009-palindrome-number) |
+| [0050-powx-n](https://github.com/Gayatri-git-hub/leetcode/tree/master/0050-powx-n) |
 | [0067-add-binary](https://github.com/Gayatri-git-hub/leetcode/tree/master/0067-add-binary) |
 | [0070-climbing-stairs](https://github.com/Gayatri-git-hub/leetcode/tree/master/0070-climbing-stairs) |
 | [0227-basic-calculator-ii](https://github.com/Gayatri-git-hub/leetcode/tree/master/0227-basic-calculator-ii) |
@@ -221,4 +222,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Gayatri-git-hub/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [1014-k-closest-points-to-origin](https://github.com/Gayatri-git-hub/leetcode/tree/master/1014-k-closest-points-to-origin) |
+## Recursion
+|  |
+| ------- |
+| [0050-powx-n](https://github.com/Gayatri-git-hub/leetcode/tree/master/0050-powx-n) |
 <!---LeetCode Topics End-->
