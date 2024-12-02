@@ -28,6 +28,27 @@
  */
 class Solution {
     public int depthSum(List<NestedInteger> nestedList) {
+        //Approach 1)  O(N), O(M) where M 
+        //return bfs(nestedList);
+
+        //Approach 2) -O(N), O(D) where D is max depth in the list
+        return dfs(nestedList, 1);
+    }
+
+    private int dfs(List<NestedInteger> nestedList, int depth){
+        int result = 0;
+
+        for (NestedInteger ni : nestedList) {
+            if(ni.isInteger())
+                result += ni.getInteger() * depth;
+            else
+                result += dfs(ni.getList(), depth + 1); 
+        }
+
+        return result;
+    }
+
+    private int bfs(List<NestedInteger> nestedList){
         Queue<NestedInteger> que = new LinkedList<>(nestedList);
         int result = 0;
         int depth =1;
