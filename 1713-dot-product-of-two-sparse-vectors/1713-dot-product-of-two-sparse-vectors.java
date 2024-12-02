@@ -1,23 +1,21 @@
 class SparseVector {
-    Set<Integer> inducesWithOne = new HashSet<>();
-    int[] numList;
+    Map<Integer, Integer> inducesWithOne = new HashMap();
     SparseVector(int[] nums) {
-        numList =nums;
         for(int i=0; i< nums.length; i++){
             if(nums[i] != 0)
-                inducesWithOne.add(i);
+                inducesWithOne.put(i, nums[i]);
         }
     }
     
 	// Return the dotProduct of two sparse vectors
     public int dotProduct(SparseVector vec) {
         int sum=0;
-        this.inducesWithOne.retainAll(vec.inducesWithOne);
-
+        
         if (inducesWithOne == null) return sum;
-
-        for (Integer idx : inducesWithOne) {
-            sum += (this.numList[idx] * vec.numList[idx]);
+        Set<Integer> ks = inducesWithOne.keySet();
+        ks.retainAll(vec.inducesWithOne.keySet());
+        for (Integer idx : ks) {
+            sum += inducesWithOne.get(idx)* vec.inducesWithOne.get(idx);
         }
         
         return sum;
