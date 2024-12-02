@@ -28,11 +28,11 @@
  */
 class Solution {
     public int depthSum(List<NestedInteger> nestedList) {
-        //Approach 1)  O(N), O(M) where M 
-        //return bfs(nestedList);
+        //BEST ==> Approach 1)  O(N), O(M) where M is max # of int at any given depth
+        return bfs(nestedList);
 
         //Approach 2) -O(N), O(D) where D is max depth in the list
-        return dfs(nestedList, 1);
+        //return dfs(nestedList, 1);
     }
 
     private int dfs(List<NestedInteger> nestedList, int depth){
