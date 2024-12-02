@@ -1,9 +1,14 @@
 class SparseVector {
-    Map<Integer, Integer> inducesWithOne = new HashMap();
+    //Map<Integer, Integer> inducesWithOne = new HashMap();
+
+    List<int[]> pairs;
+
     SparseVector(int[] nums) {
+        pairs = new ArrayList<>();
+
         for(int i=0; i< nums.length; i++){
             if(nums[i] != 0)
-                inducesWithOne.put(i, nums[i]);
+                pairs.add(new int[]{i,nums[i]});
         }
     }
     
@@ -11,13 +16,34 @@ class SparseVector {
     public int dotProduct(SparseVector vec) {
         int sum=0;
         
-        if (inducesWithOne == null) return sum;
+        //Approach 1) Using HashMap - Someitmes Interviewer will not accept and will ask for another solution.
+        /*if (inducesWithOne == null) return sum;
         Set<Integer> ks = inducesWithOne.keySet();
         ks.retainAll(vec.inducesWithOne.keySet());
         for (Integer idx : ks) {
             sum += inducesWithOne.get(idx)* vec.inducesWithOne.get(idx);
         }
-        
+        */
+       int p =0;
+       int q=0;
+
+       while (p < this.pairs.size() && q < vec.pairs.size()) {
+
+            int thisIdx = this.pairs.get(p)[0];
+            int vecIdx = vec.pairs.get(q)[0];
+
+            if (thisIdx == vecIdx) {
+                sum += this.pairs.get(p)[1] * vec.pairs.get(q)[1];
+
+                p++;
+                q++;
+            }
+            else{
+                if (thisIdx < vecIdx) p++;
+                else q++;
+            }
+       }
+
         return sum;
     }
 }
