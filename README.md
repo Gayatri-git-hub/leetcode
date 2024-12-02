@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0133-clone-graph](https://github.com/Gayatri-git-hub/leetcode/tree/master/0133-clone-graph) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Gayatri-git-hub/leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/Gayatri-git-hub/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
+| [0339-nested-list-weight-sum](https://github.com/Gayatri-git-hub/leetcode/tree/master/0339-nested-list-weight-sum) |
 | [0543-diameter-of-binary-tree](https://github.com/Gayatri-git-hub/leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [1780-lowest-common-ancestor-of-a-binary-tree-ii](https://github.com/Gayatri-git-hub/leetcode/tree/master/1780-lowest-common-ancestor-of-a-binary-tree-ii) |
 ## Binary Tree
@@ -85,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0133-clone-graph](https://github.com/Gayatri-git-hub/leetcode/tree/master/0133-clone-graph) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/Gayatri-git-hub/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
+| [0339-nested-list-weight-sum](https://github.com/Gayatri-git-hub/leetcode/tree/master/0339-nested-list-weight-sum) |
 ## Graph
 |  |
 | ------- |
