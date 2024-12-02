@@ -8,29 +8,25 @@
  * }
  */
 class Solution {
-    TreeNode answer;
-
+    TreeNode lca;
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-        
-        dfs(root, p.val, q.val);
-        
-        return answer;
-
+         dfs(root, p.val, q.val);
+         return lca;
     }
 
-    public Boolean dfs(TreeNode node, int p, int q){
+    private boolean dfs(TreeNode node, int p, int q){
 
         if(node == null) return false;
 
-        int left = dfs(node.left, p, q) == true ? 1: 0;
-        int right = dfs(node.right, p, q) == true? 1: 0;
+       // if(node.val == p || node.val == q) return true;
 
-        int mid = (node.val == p || node.val == q) ? 1:0;
+        int left = dfs(node.left, p, q) ? 1: 0;
+        int right = dfs(node.right, p, q) ? 1: 0;
+        int mid = (node.val == p || node.val == q)? 1:0;
 
-        if(left + right + mid >= 2) 
-            answer = node;
-        
-        return (left + right + mid > 0);
+        if(left + right + mid >= 2) lca = node;
+
+        return (left + right + mid > 0);      
 
     }
 }
