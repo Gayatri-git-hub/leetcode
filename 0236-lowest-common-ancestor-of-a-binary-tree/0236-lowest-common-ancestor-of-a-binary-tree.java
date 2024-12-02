@@ -18,13 +18,11 @@ class Solution {
 
         if(node == null) return false;
 
-       // if(node.val == p || node.val == q) return true;
-
         int left = dfs(node.left, p, q) ? 1: 0;
         int right = dfs(node.right, p, q) ? 1: 0;
         int mid = (node.val == p || node.val == q)? 1:0;
 
-        if(left + right + mid >= 2) lca = node;
+        if(left + right + mid == 2) lca = node;
 
         return (left + right + mid > 0);      
 
