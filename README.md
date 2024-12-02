@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1028-interval-list-intersections](https://github.com/Gayatri-git-hub/leetcode/tree/master/1028-interval-list-intersections) |
 | [1046-max-consecutive-ones-iii](https://github.com/Gayatri-git-hub/leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/Gayatri-git-hub/leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
+| [1909-buildings-with-an-ocean-view](https://github.com/Gayatri-git-hub/leetcode/tree/master/1909-buildings-with-an-ocean-view) |
 ## Binary Search
 |  |
 | ------- |
@@ -193,6 +194,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0227-basic-calculator-ii](https://github.com/Gayatri-git-hub/leetcode/tree/master/0227-basic-calculator-ii) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/Gayatri-git-hub/leetcode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/Gayatri-git-hub/leetcode/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
+| [1909-buildings-with-an-ocean-view](https://github.com/Gayatri-git-hub/leetcode/tree/master/1909-buildings-with-an-ocean-view) |
 ## Database
 |  |
 | ------- |
@@ -237,4 +239,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/Gayatri-git-hub/leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
+## Monotonic Stack
+|  |
+| ------- |
+| [1909-buildings-with-an-ocean-view](https://github.com/Gayatri-git-hub/leetcode/tree/master/1909-buildings-with-an-ocean-view) |
 <!---LeetCode Topics End-->
