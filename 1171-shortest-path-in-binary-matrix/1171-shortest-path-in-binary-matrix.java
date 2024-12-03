@@ -1,65 +1,60 @@
 class Cell{
-    int val;
     int row;
     int col;
+    int val;
     int dist;
 
-    public Cell(int v, int r, int c, int d){
-        val = v;
+    public Cell(int r, int c, int v, int d){
         row = r;
         col = c;
-        dist =d;
+        val = v;
+        dist = d;
     }
 }
 class Solution {
+    int[][] neighbouringIndices = new int[][]{
+            {-1,-1},{-1, 0},{-1,1}, {0,-1}, {0,1}, {1, -1}, {1, 0}, {1, 1}
+    };
+
     public int shortestPathBinaryMatrix(int[][] grid) {
 
-        Queue<Cell> que = new LinkedList<>();
         int m = grid.length;
-        int n = grid[0].length;
-        boolean[][] visited = new boolean[m][n];
+        int n = grid[0].length; 
         
-        if (grid[0][0] == 1 || grid[m-1][n-1] == 1) return -1;
+        boolean[][] visited = new boolean[m][n];
+        Queue<Cell> bfsQue =new LinkedList<>();
 
-        que.offer(new Cell(grid[0][0], 0, 0, 1));
+        if (grid[0][0] != 0 || grid[m-1][n-1] != 0) return -1;
 
-        while (!que.isEmpty()) {
-            Cell c = que.poll();
+        bfsQue.offer(new Cell(0,0, grid[0][0], 1));
 
-            visited[c.row][c.col] = true;
+        while (!bfsQue.isEmpty()) {
+            int size = bfsQue.size();
 
-            if(c.val == 1) continue;
+            for (int i = 0; i < size; i++) {
+                Cell curr = bfsQue.poll();
 
-            if (c.row == m-1 && c.col == n-1) return c.dist;
+                if(curr.row == m-1 && curr.col == n-1) return curr.dist;
 
-            for (int[] cell : getCellNeighbours(c)) {
-                int i = cell[0];
-                int j = cell[1];
-                if ((i >= m) || (i < 0 ) || (j >= n) || (j < 0) || visited[i][j]) continue;
+                visited[curr.row][curr.col] = true;
                 
-                visited[i][j] = true;
-                
-                que.add(new Cell(grid[i][j], i, j, c.dist + 1));
+                for (int[] is : neighbouringIndices) {
+                    int r = curr.row + is[0] ;
+                    int c = curr.col + is[1] ;
+
+                    if (r < 0 || r >=m || c <0 || c >= n) continue;
+
+                    if (grid[r][c] == 0 && !visited[r][c]){
+                        Cell nbr = new Cell(r, c,  grid[r][c], curr.dist + 1);
+                        bfsQue.offer(nbr);
+                    }
+                   
+                    visited[r][c] = true;
+
+
+                }
             }
         }
-        
         return -1;
-    }
-
-    private List<int[]> getCellNeighbours(Cell c){
-        List<int[]> results = new LinkedList<>();
-
-        results.add(new int[]{c.row -1,c.col-1});
-        results.add(new int[]{c.row -1,c.col});
-        results.add(new int[]{c.row -1,c.col+1});
-
-        results.add(new int[]{c.row,c.col-1});
-        results.add(new int[]{c.row,c.col+1});
-
-        results.add(new int[]{c.row +1,c.col-1});
-        results.add(new int[]{c.row +1,c.col});
-        results.add(new int[]{c.row +1,c.col+1});
-
-        return results;
     }
 }
