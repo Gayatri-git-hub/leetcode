@@ -1,18 +1,8 @@
-class CacheItem {
-    int key;
-    int value;
-    int freq;
-
-    public CacheItem(int k, int v, int f){
-        key = k;
-        value = v;
-        freq = f;
-    }
-}
 class LRUCache {
     LinkedHashMap<Integer, Integer> cache;
+
     public LRUCache(int capacity) {
-        cache = new LinkedHashMap<>(capacity, 0.75f, true){
+        cache = new LinkedHashMap<>(capacity, 100.00f, true){ //true - when u want LRU order, false when u want Insert order
             @Override
             protected boolean removeEldestEntry(java.util.Map.Entry<Integer, Integer> eldest) {
                 return size() > capacity;
@@ -21,10 +11,8 @@ class LRUCache {
     }
     
     public int get(int key) {
-        if (cache.containsKey(key))
-            return cache.get(key);
-        else 
-            return -1;
+        if (cache.containsKey(key)) return cache.get(key);
+        else return -1;
     }
     
     public void put(int key, int value) {
