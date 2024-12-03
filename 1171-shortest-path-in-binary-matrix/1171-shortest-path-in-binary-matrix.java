@@ -27,7 +27,8 @@ class Solution {
         if (grid[0][0] != 0 || grid[m-1][n-1] != 0) return -1;
 
         bfsQue.offer(new Cell(0,0, grid[0][0], 1));
-
+        visited[0][0] = true;
+                
         while (!bfsQue.isEmpty()) {
             int size = bfsQue.size();
 
@@ -36,8 +37,6 @@ class Solution {
 
                 if(curr.row == m-1 && curr.col == n-1) return curr.dist;
 
-                visited[curr.row][curr.col] = true;
-                
                 for (int[] is : neighbouringIndices) {
                     int r = curr.row + is[0] ;
                     int c = curr.col + is[1] ;
@@ -50,8 +49,6 @@ class Solution {
                     }
                    
                     visited[r][c] = true;
-
-
                 }
             }
         }
