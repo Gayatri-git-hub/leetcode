@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0118-pascals-triangle](https://github.com/Gayatri-git-hub/leetcode/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Gayatri-git-hub/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0136-single-number](https://github.com/Gayatri-git-hub/leetcode/tree/master/0136-single-number) |
+| [0162-find-peak-element](https://github.com/Gayatri-git-hub/leetcode/tree/master/0162-find-peak-element) |
 | [0169-majority-element](https://github.com/Gayatri-git-hub/leetcode/tree/master/0169-majority-element) |
 | [0198-house-robber](https://github.com/Gayatri-git-hub/leetcode/tree/master/0198-house-robber) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Gayatri-git-hub/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
@@ -29,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0162-find-peak-element](https://github.com/Gayatri-git-hub/leetcode/tree/master/0162-find-peak-element) |
 | [0912-random-pick-with-weight](https://github.com/Gayatri-git-hub/leetcode/tree/master/0912-random-pick-with-weight) |
 | [1046-max-consecutive-ones-iii](https://github.com/Gayatri-git-hub/leetcode/tree/master/1046-max-consecutive-ones-iii) |
 ## Sliding Window
