@@ -28,12 +28,11 @@ class Solution {
     public List<Integer> rightSideView(TreeNode root) {
 
         //Approach 1) using BFS -Which I feel good
-        //return bfs(root);
+        return bfs(root);
 
         //Approach 2) using DFS 
-        dfs(root, 0);
-
-        return new ArrayList<>(ans);
+        //dfs(root, 0);
+        //return new ArrayList<>(ans);
     }
 
     private List<Integer> bfs(TreeNode root){
