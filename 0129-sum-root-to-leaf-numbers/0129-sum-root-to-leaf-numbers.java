@@ -16,9 +16,13 @@
 class Solution {
     int ans;
     public int sumNumbers(TreeNode root) {
+
+        if(root == null) return 0;
+
         dfsPre(root, 0);
 
         return ans;
+        
     }
 
     private void dfsPre(TreeNode node, int currSum){
@@ -31,7 +35,7 @@ class Solution {
 
         if(node.left == null && node.right == null) 
             ans += currSum;
-
+        
         return;
 
     }
