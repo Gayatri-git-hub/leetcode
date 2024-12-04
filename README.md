@@ -104,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0523-continuous-subarray-sum](https://github.com/Gayatri-git-hub/leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/Gayatri-git-hub/leetcode/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/Gayatri-git-hub/leetcode/tree/master/0560-subarray-sum-equals-k) |
+| [0807-custom-sort-string](https://github.com/Gayatri-git-hub/leetcode/tree/master/0807-custom-sort-string) |
 | [0990-verifying-an-alien-dictionary](https://github.com/Gayatri-git-hub/leetcode/tree/master/0990-verifying-an-alien-dictionary) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/Gayatri-git-hub/leetcode/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/Gayatri-git-hub/leetcode/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
@@ -143,6 +144,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0071-simplify-path](https://github.com/Gayatri-git-hub/leetcode/tree/master/0071-simplify-path) |
 | [0151-reverse-words-in-a-string](https://github.com/Gayatri-git-hub/leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0227-basic-calculator-ii](https://github.com/Gayatri-git-hub/leetcode/tree/master/0227-basic-calculator-ii) |
+| [0807-custom-sort-string](https://github.com/Gayatri-git-hub/leetcode/tree/master/0807-custom-sort-string) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/Gayatri-git-hub/leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [0990-verifying-an-alien-dictionary](https://github.com/Gayatri-git-hub/leetcode/tree/master/0990-verifying-an-alien-dictionary) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/Gayatri-git-hub/leetcode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
@@ -250,6 +252,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/Gayatri-git-hub/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/Gayatri-git-hub/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0347-top-k-frequent-elements](https://github.com/Gayatri-git-hub/leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0807-custom-sort-string](https://github.com/Gayatri-git-hub/leetcode/tree/master/0807-custom-sort-string) |
 | [1014-k-closest-points-to-origin](https://github.com/Gayatri-git-hub/leetcode/tree/master/1014-k-closest-points-to-origin) |
 ## Counting
 |  |
