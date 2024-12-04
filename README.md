@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0162-find-peak-element](https://github.com/Gayatri-git-hub/leetcode/tree/master/0162-find-peak-element) |
 | [0169-majority-element](https://github.com/Gayatri-git-hub/leetcode/tree/master/0169-majority-element) |
 | [0198-house-robber](https://github.com/Gayatri-git-hub/leetcode/tree/master/0198-house-robber) |
+| [0200-number-of-islands](https://github.com/Gayatri-git-hub/leetcode/tree/master/0200-number-of-islands) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Gayatri-git-hub/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0219-contains-duplicate-ii](https://github.com/Gayatri-git-hub/leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0347-top-k-frequent-elements](https://github.com/Gayatri-git-hub/leetcode/tree/master/0347-top-k-frequent-elements) |
@@ -68,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0129-sum-root-to-leaf-numbers](https://github.com/Gayatri-git-hub/leetcode/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0133-clone-graph](https://github.com/Gayatri-git-hub/leetcode/tree/master/0133-clone-graph) |
 | [0199-binary-tree-right-side-view](https://github.com/Gayatri-git-hub/leetcode/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/Gayatri-git-hub/leetcode/tree/master/0200-number-of-islands) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Gayatri-git-hub/leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/Gayatri-git-hub/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0339-nested-list-weight-sum](https://github.com/Gayatri-git-hub/leetcode/tree/master/0339-nested-list-weight-sum) |
@@ -110,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0133-clone-graph](https://github.com/Gayatri-git-hub/leetcode/tree/master/0133-clone-graph) |
 | [0199-binary-tree-right-side-view](https://github.com/Gayatri-git-hub/leetcode/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/Gayatri-git-hub/leetcode/tree/master/0200-number-of-islands) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/Gayatri-git-hub/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0339-nested-list-weight-sum](https://github.com/Gayatri-git-hub/leetcode/tree/master/0339-nested-list-weight-sum) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Gayatri-git-hub/leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
@@ -193,6 +196,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/Gayatri-git-hub/leetcode/tree/master/0054-spiral-matrix) |
+| [0200-number-of-islands](https://github.com/Gayatri-git-hub/leetcode/tree/master/0200-number-of-islands) |
 | [0777-toeplitz-matrix](https://github.com/Gayatri-git-hub/leetcode/tree/master/0777-toeplitz-matrix) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Gayatri-git-hub/leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 ## Dynamic Programming
@@ -292,4 +296,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/Gayatri-git-hub/leetcode/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
+## Union Find
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/Gayatri-git-hub/leetcode/tree/master/0200-number-of-islands) |
 <!---LeetCode Topics End-->
