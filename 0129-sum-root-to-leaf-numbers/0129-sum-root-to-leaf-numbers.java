@@ -14,30 +14,25 @@
  * }
  */
 class Solution {
+    int ans;
+    public int sumNumbers(TreeNode root) {
+        dfsPre(root, 0);
 
-    int sum;
-    private void dfs(TreeNode node, String num){
-
-        if(node.left == null && node.right == null) {
-            System.out.println("Returning from Node: " + node.val);
-
-            int rootToLeaf = Integer.parseInt(num + node.val);
-            System.out.println("Integer Root to Leaf: " + rootToLeaf);
-            sum += rootToLeaf ;
-
-            System.out.println("Calculated Sum: " + sum);
-            return;
-        }
-
-
-        if(node.left != null) dfs(node.left, num + node.val);
-        if(node.right != null) dfs(node.right, num + node.val);
-
-
+        return ans;
     }
 
-    public int sumNumbers(TreeNode root) {
-        dfs(root, "");
-        return sum;
+    private void dfsPre(TreeNode node, int currSum){
+        if(node == null) return;
+
+        currSum = (currSum * 10) + node.val;
+
+        dfsPre(node.left, currSum);
+        dfsPre(node.right, currSum);
+
+        if(node.left == null && node.right == null) 
+            ans += currSum;
+
+        return;
+
     }
 }
