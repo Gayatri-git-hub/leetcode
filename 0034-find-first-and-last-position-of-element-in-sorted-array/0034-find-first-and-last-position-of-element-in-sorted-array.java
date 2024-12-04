@@ -10,9 +10,9 @@ class Solution {
         int left =0;
         int right = nums.length-1;
         
-        while (left <= right) {
+        while (left <= right) { // Note = used
             int mid;
-            mid = (left + right)/2;
+            mid = (left + right)/2;     //Note: calculation
 
             if(nums[mid] == target){
                 int first = mid;
