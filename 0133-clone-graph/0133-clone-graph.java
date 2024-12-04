@@ -1,4 +1,3 @@
-
 /*
 // Definition for a Node.
 class Node {
@@ -21,31 +20,37 @@ class Node {
 
 class Solution {
     public Node cloneGraph(Node node) {
+        if (node == null) return null;
 
-        if (node == null)  return null;
+        Queue<Node> que = new LinkedList<>();
+        Map<Node, Node> nodeMap = new HashMap<>();
 
-        Deque<Node> que = new ArrayDeque<>();
-        Map<Node, Node> clone = new HashMap<>();
-        Node origHead = node;
+        que.offer(node);
 
-        que.add(node);
-        clone.put(node, new Node(node.val));
-       
         while (!que.isEmpty()) {
-            Node old = que.poll();
-            Node newN = clone.get(old);
-
-            for (Node ne : old.neighbors) { 
-                if (!clone.containsKey(ne)) {
-                    clone.put(ne, new Node(ne.val));
-                    que.add(ne);
-                }
-                newN.neighbors.add(clone.get(ne));
-            }
             
+            int size =que.size();
+            for (int i = 0; i < size; i++) {
+                Node n = que.poll();
+                Node clone = new Node(n.val);
+                nodeMap.put(n, clone);
+
+                for (Node ne : n.neighbors) {
+                    if(!nodeMap.containsKey(ne))
+                        que.offer(ne);    
+                }
+                
+            }
         }
 
-        return clone.get(origHead);
-    }
+        for (Node n : nodeMap.keySet()) {
+            Node clone = nodeMap.get(n);
+            for (Node ne : n.neighbors) {
+                clone.neighbors.add(nodeMap.get(ne));
+            }
+        }
 
+        return nodeMap.get(node);
+        
+    }
 }
