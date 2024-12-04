@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Gayatri-git-hub/leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/Gayatri-git-hub/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0543-diameter-of-binary-tree](https://github.com/Gayatri-git-hub/leetcode/tree/master/0543-diameter-of-binary-tree) |
+| [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/Gayatri-git-hub/leetcode/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
 | [1780-lowest-common-ancestor-of-a-binary-tree-ii](https://github.com/Gayatri-git-hub/leetcode/tree/master/1780-lowest-common-ancestor-of-a-binary-tree-ii) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/Gayatri-git-hub/leetcode/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
 ## Depth-First Search
@@ -71,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0314-binary-tree-vertical-order-traversal](https://github.com/Gayatri-git-hub/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0339-nested-list-weight-sum](https://github.com/Gayatri-git-hub/leetcode/tree/master/0339-nested-list-weight-sum) |
 | [0543-diameter-of-binary-tree](https://github.com/Gayatri-git-hub/leetcode/tree/master/0543-diameter-of-binary-tree) |
+| [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/Gayatri-git-hub/leetcode/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
 | [1780-lowest-common-ancestor-of-a-binary-tree-ii](https://github.com/Gayatri-git-hub/leetcode/tree/master/1780-lowest-common-ancestor-of-a-binary-tree-ii) |
 ## Binary Tree
 |  |
@@ -80,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Gayatri-git-hub/leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/Gayatri-git-hub/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0543-diameter-of-binary-tree](https://github.com/Gayatri-git-hub/leetcode/tree/master/0543-diameter-of-binary-tree) |
+| [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/Gayatri-git-hub/leetcode/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
 | [1780-lowest-common-ancestor-of-a-binary-tree-ii](https://github.com/Gayatri-git-hub/leetcode/tree/master/1780-lowest-common-ancestor-of-a-binary-tree-ii) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/Gayatri-git-hub/leetcode/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
 ## Hash Table
@@ -151,6 +154,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0138-copy-list-with-random-pointer](https://github.com/Gayatri-git-hub/leetcode/tree/master/0138-copy-list-with-random-pointer) |
 | [0146-lru-cache](https://github.com/Gayatri-git-hub/leetcode/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Gayatri-git-hub/leetcode/tree/master/0160-intersection-of-two-linked-lists) |
+| [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/Gayatri-git-hub/leetcode/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
 | [0850-insert-into-a-sorted-circular-linked-list](https://github.com/Gayatri-git-hub/leetcode/tree/master/0850-insert-into-a-sorted-circular-linked-list) |
 ## Trie
 |  |
@@ -216,6 +220,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0071-simplify-path](https://github.com/Gayatri-git-hub/leetcode/tree/master/0071-simplify-path) |
 | [0227-basic-calculator-ii](https://github.com/Gayatri-git-hub/leetcode/tree/master/0227-basic-calculator-ii) |
+| [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/Gayatri-git-hub/leetcode/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/Gayatri-git-hub/leetcode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/Gayatri-git-hub/leetcode/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1909-buildings-with-an-ocean-view](https://github.com/Gayatri-git-hub/leetcode/tree/master/1909-buildings-with-an-ocean-view) |
@@ -278,8 +283,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/Gayatri-git-hub/leetcode/tree/master/0146-lru-cache) |
+| [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/Gayatri-git-hub/leetcode/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
 ## Bucket Sort
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/Gayatri-git-hub/leetcode/tree/master/0347-top-k-frequent-elements) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/Gayatri-git-hub/leetcode/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
 <!---LeetCode Topics End-->
