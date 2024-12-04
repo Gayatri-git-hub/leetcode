@@ -27,29 +27,27 @@ class Solution {
 
         if (root == null) return null;
 
-        inOrder(root);
-        
+        inorder(root);
+
         first.left = last;
         last.right = first;
 
         return first;
     }
 
-    private void inOrder(Node node){
+    private void inorder(Node node){
         if (node != null) {
-            inOrder(node.left);
-            
-            if (last == null)
-                first = node;
-            else{
+
+            inorder(node.left);
+
+            if (last == null) first = node;
+            else {
                 node.left = last;
                 last.right = node;
             }
 
-            last = node;
-
-            inOrder(node.right);
+            last = node;    
+            inorder(node.right);        
         }
-
     }
 }
