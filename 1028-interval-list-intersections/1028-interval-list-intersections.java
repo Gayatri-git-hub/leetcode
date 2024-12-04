@@ -1,28 +1,49 @@
+class Interval{
+    int start;
+    int end;
+    public Interval(int s,int e){
+        start = s;
+        end = e;
+    }
+}
+
 class Solution {
     public int[][] intervalIntersection(int[][] firstList, int[][] secondList) {
         
-        int ptr1 = 0;
-        int ptr2 = 0;
-        ArrayList<int[]> results = new ArrayList<>();
+        List<Interval> res = new ArrayList<>();
 
-        while (ptr1 < firstList.length && ptr2 < secondList.length) {
-            
-            int low = Math.max(firstList[ptr1][0], secondList[ptr2][0]);
-            int hi = Math.min(firstList[ptr1][1], secondList[ptr2][1]);
+        int i=0;
+        int j=0;
+        
+        while (i < firstList.length && j < secondList.length) {
+            Interval first = new Interval(firstList[i][0], firstList[i][1]);
+            Interval second = new Interval(secondList[j][0], secondList[j][1]);
 
-            if(low <= hi)
-                results.add(new int[]{low, hi});
+            if(first.start > second.end) {
+                j++;
+                continue;
+            }
 
-            if(firstList[ptr1][1] <  secondList[ptr2][1]) ptr1++;
-            else ptr2++;   
+            if(second.start > first.end) {
+                i++;
+                continue;
+            }
+
+            Interval intersect = new Interval(Math.max(first.start, second.start),
+             Math.min(first.end, second.end));
+
+            res.add(intersect);
+
+            if (first.end > second.end) j++;
+            else i++;
         }
 
-        int[][] res = new int[results.size()][2];
-
-        for (int i = 0; i < results.size(); i++) {
-            res[i] = results.get(i);
+        int[][] ans = new int[res.size()][2];
+        for(int a=0; a< res.size(); a++){
+            ans[a] = new int[]{res.get(a).start, res.get(a).end};
         }
 
-        return res;
+        return ans;
+
     }
 }
