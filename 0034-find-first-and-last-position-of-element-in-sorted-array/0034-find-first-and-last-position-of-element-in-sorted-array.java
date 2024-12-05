@@ -3,10 +3,6 @@ class Solution {
 
         if(nums.length == 1 && target == nums[0]) return new int[]{0,0};
         
-        if (nums.length == 2) {
-            
-        }
-
         int left =0;
         int right = nums.length-1;
         
