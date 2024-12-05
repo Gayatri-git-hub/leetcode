@@ -19,42 +19,45 @@ class Node {
 
 class Solution {
     public Node insert(Node head, int insertVal) {
-        Node newNode = new Node(insertVal);
-        
-        if (head == null) {
+        Node newNode =new Node(insertVal);
+            
+        if(head == null){
             newNode.next = newNode;
             return newNode;
-        } 
+        }
 
-        Node origHead = head;
-
-        Node prev = head;
+        Node prev= head;
         Node curr = head.next;
+        
+        boolean toInsert = false;
 
         do{
-           if(newNode.val >= prev.val && newNode.val <= curr.val){
-               prev.next = newNode;
-               newNode.next = curr; 
-               return origHead;
-           }     
-           else if (curr.val < prev.val) { //this means we passed on from Tail to head now
-            if (newNode.val > prev.val || newNode.val < curr.val) {
-                prev.next = newNode;
-                newNode.next = curr; 
-                return origHead;
+            if(prev.val <= newNode.val && curr.val >= newNode.val){
+                toInsert = true;
+            }
+            else if(prev.val > curr.val)
+            {
+                if(insertVal >= prev.val || insertVal <= curr.val)
+                    toInsert = true;
+            }
+            else if(prev == curr){
+                toInsert = true;
             }
 
-           }
-           
-           prev = curr;
-           curr = curr.next; 
-           
-
+            if (toInsert) {
+                prev.next = newNode;
+                newNode.next = curr;
+                break;
+            }
+            prev = curr;
+            curr = curr.next;
         } while(prev != head);
 
-        Node temp = prev.next;
-        prev.next = newNode;
-        newNode.next = temp;
-        return origHead;
+        if (prev.val == curr.val) {
+            prev.next = newNode;
+            newNode.next = curr;
+        }
+
+        return head;
     }
 }
