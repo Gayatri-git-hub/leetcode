@@ -16,17 +16,11 @@ class Solution {
         int val =-1;
 
         ListNode result = null;
-        int val1=0;
-        int val2=0;
-
+        
         while(l1 != null || l2 != null){
 
-            if(l1 == null) val1 =0;
-            else val1 = l1.val;
-
-            if(l2 == null) val2 = 0;
-            else val2 = l2.val;
-
+            int val1 = (l1 ==null) ? 0: l1.val;
+            int val2 = (l2 == null) ? 0: l2.val;
 
             int sum = val1 + val2 + carryOver;
 
