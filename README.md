@@ -159,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/Gayatri-git-hub/leetcode/tree/master/0002-add-two-numbers) |
 | [0138-copy-list-with-random-pointer](https://github.com/Gayatri-git-hub/leetcode/tree/master/0138-copy-list-with-random-pointer) |
 | [0146-lru-cache](https://github.com/Gayatri-git-hub/leetcode/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Gayatri-git-hub/leetcode/tree/master/0160-intersection-of-two-linked-lists) |
@@ -178,6 +179,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/Gayatri-git-hub/leetcode/tree/master/0002-add-two-numbers) |
 | [0009-palindrome-number](https://github.com/Gayatri-git-hub/leetcode/tree/master/0009-palindrome-number) |
 | [0050-powx-n](https://github.com/Gayatri-git-hub/leetcode/tree/master/0050-powx-n) |
 | [0067-add-binary](https://github.com/Gayatri-git-hub/leetcode/tree/master/0067-add-binary) |
@@ -280,6 +282,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Recursion
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/Gayatri-git-hub/leetcode/tree/master/0002-add-two-numbers) |
 | [0050-powx-n](https://github.com/Gayatri-git-hub/leetcode/tree/master/0050-powx-n) |
 ## Design
 |  |
