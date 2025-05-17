@@ -1,22 +1,32 @@
 class Solution {
     public List<List<Integer>> generate(int numRows) {
-        List<List<Integer>> triangle = new ArrayList<>(numRows);
-        ArrayList<Integer> currRow = new ArrayList<>();
-        currRow.add(1);
-        triangle.add(new ArrayList<Integer>(currRow));
 
-        for (int row = 1; row < numRows; row++) {
-            List<Integer> prevRow = triangle.get(row-1);
+        List<List<Integer>> numList = new ArrayList<>();
+        //int numRows = numRows//Integer.getInteger(args[0]);
+        //int[] num = new int[numRows];
+        List<Integer> num = new ArrayList<>();
 
-            currRow = new ArrayList<>();
-            currRow.add(1);
-            for (int col = 1; col < triangle.get(row-1).size(); col++) {
-                currRow.add(triangle.get(row-1).get(col-1) + triangle.get(row-1).get(col));    
+        for (int i = 0; i < numRows; i++) {
+            if (numList.size() == 0) {
+                num.add(i+1);
+                numList.add(num);
+            } else {
+                num = new ArrayList<>();
+                for (int j = 0; j <= i; j++) {
+                    if (j == 0 || j == i) {
+                        num.add(numList.get(i - 1).get(0));
+                    } else
+                        num.add(numList.get(i - 1).get(j - 1) + numList.get(i - 1).get(j));
+
+                }
+                numList.add(num);
             }
-            currRow.add(1);
-            triangle.add(new ArrayList<Integer>(currRow));
         }
-       
-        return triangle;
+        System.out.println("output");
+        return numList;
+        //numList.forEach(System.out::println);
+        //               numList.add(num)
+
+        // numList.add(numRws)
     }
 }
