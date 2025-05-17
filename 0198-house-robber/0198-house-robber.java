@@ -1,51 +1,19 @@
 class Solution {
-    Map<Integer, Integer> memo = new HashMap<>();
-
-    private int dp(int[] nums, int  i){
-        if(i == 0) return nums[i];
-        if(i == 1) return Math.max(nums[i], nums[i-1]);
-        if(!memo.containsKey(i)) memo.put(i, Math.max(dp(nums, i-1), dp(nums, i-2) + nums[i]));
-
-        return memo.get(i);
-    }
-
-    
-
     public int rob(int[] nums) {
-
-        int[] target = new int[nums.length];
-
-        if(nums.length == 0) return 0;
-        if(nums.length == 1) return nums[0];
-        if(nums.length == 2) return Math.max(nums[1], nums[0]);
         
-        target[0] = nums[0];
-        target[1]= Math.max(nums[1], nums[0]);
-
-        for(int i = 2;  i< nums.length; i++){
-            target[i] = Math.max(target[i-1], target[i-2] + nums[i]);
+        int[] sum = new int[nums.length];
+        for(int i= 0; i< nums.length; i++)  {
+            if(i==0) {
+                sum[i]=nums[i];
+            }else if(i ==1) {
+                sum[i] = Math.max(nums[i], sum[i-1]);
+            }else   {
+                sum[i]=sum[i-2]+nums[i];
+                if(sum[i] < sum[i-1]) {
+                    sum[i]=sum[i-1];
+                }
+            }
         }
-
-        return target[nums.length-1];
-
-        // Dynamic Programming Problem
-
-        //Approach 1) Top-Down Using memoization
-        //return dp(nums, nums.length-1);
-        
-        //Approach 2) Bottom-up using Iterator
-      /*  if (nums.length == 0) return 0;
-        if (nums.length == 1) return nums[0];
-
-        int[] dpArr = new int[nums.length];
-        
-        dpArr[0] = nums[0];
-        dpArr[1] = Math.max(nums[1], nums[0]);
-
-        for (int i = 2; i < nums.length; i++) {
-            dpArr[i] = Math.max(dpArr[i-1], dpArr[i-2] + nums[i]);
-        }
-
-        eturn dpArr[nums.length-1];  */
+        return sum[nums.length - 1];
     }
 }
