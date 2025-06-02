@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Gayatri-git-hub/leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/Gayatri-git-hub/leetcode/tree/master/0031-next-permutation) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Gayatri-git-hub/leetcode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
+| [0049-group-anagrams](https://github.com/Gayatri-git-hub/leetcode/tree/master/0049-group-anagrams) |
 | [0054-spiral-matrix](https://github.com/Gayatri-git-hub/leetcode/tree/master/0054-spiral-matrix) |
 | [0056-merge-intervals](https://github.com/Gayatri-git-hub/leetcode/tree/master/0056-merge-intervals) |
 | [0078-subsets](https://github.com/Gayatri-git-hub/leetcode/tree/master/0078-subsets) |
@@ -96,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/Gayatri-git-hub/leetcode/tree/master/0001-two-sum) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Gayatri-git-hub/leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0049-group-anagrams](https://github.com/Gayatri-git-hub/leetcode/tree/master/0049-group-anagrams) |
 | [0133-clone-graph](https://github.com/Gayatri-git-hub/leetcode/tree/master/0133-clone-graph) |
 | [0138-copy-list-with-random-pointer](https://github.com/Gayatri-git-hub/leetcode/tree/master/0138-copy-list-with-random-pointer) |
 | [0146-lru-cache](https://github.com/Gayatri-git-hub/leetcode/tree/master/0146-lru-cache) |
@@ -148,6 +150,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Gayatri-git-hub/leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0020-valid-parentheses](https://github.com/Gayatri-git-hub/leetcode/tree/master/0020-valid-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Gayatri-git-hub/leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0049-group-anagrams](https://github.com/Gayatri-git-hub/leetcode/tree/master/0049-group-anagrams) |
 | [0067-add-binary](https://github.com/Gayatri-git-hub/leetcode/tree/master/0067-add-binary) |
 | [0071-simplify-path](https://github.com/Gayatri-git-hub/leetcode/tree/master/0071-simplify-path) |
 | [0151-reverse-words-in-a-string](https://github.com/Gayatri-git-hub/leetcode/tree/master/0151-reverse-words-in-a-string) |
@@ -259,6 +262,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0015-3sum](https://github.com/Gayatri-git-hub/leetcode/tree/master/0015-3sum) |
+| [0049-group-anagrams](https://github.com/Gayatri-git-hub/leetcode/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/Gayatri-git-hub/leetcode/tree/master/0056-merge-intervals) |
 | [0169-majority-element](https://github.com/Gayatri-git-hub/leetcode/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Gayatri-git-hub/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
