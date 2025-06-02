@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/Gayatri-git-hub/leetcode/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/Gayatri-git-hub/leetcode/tree/master/0200-number-of-islands) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Gayatri-git-hub/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0217-contains-duplicate](https://github.com/Gayatri-git-hub/leetcode/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/Gayatri-git-hub/leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0347-top-k-frequent-elements](https://github.com/Gayatri-git-hub/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0523-continuous-subarray-sum](https://github.com/Gayatri-git-hub/leetcode/tree/master/0523-continuous-subarray-sum) |
@@ -100,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0146-lru-cache](https://github.com/Gayatri-git-hub/leetcode/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Gayatri-git-hub/leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/Gayatri-git-hub/leetcode/tree/master/0169-majority-element) |
+| [0217-contains-duplicate](https://github.com/Gayatri-git-hub/leetcode/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/Gayatri-git-hub/leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0242-valid-anagram](https://github.com/Gayatri-git-hub/leetcode/tree/master/0242-valid-anagram) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/Gayatri-git-hub/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
@@ -260,6 +262,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0056-merge-intervals](https://github.com/Gayatri-git-hub/leetcode/tree/master/0056-merge-intervals) |
 | [0169-majority-element](https://github.com/Gayatri-git-hub/leetcode/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Gayatri-git-hub/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0217-contains-duplicate](https://github.com/Gayatri-git-hub/leetcode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Gayatri-git-hub/leetcode/tree/master/0242-valid-anagram) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/Gayatri-git-hub/leetcode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0347-top-k-frequent-elements](https://github.com/Gayatri-git-hub/leetcode/tree/master/0347-top-k-frequent-elements) |
