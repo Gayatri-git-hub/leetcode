@@ -4,20 +4,18 @@
 #         self.val = x
 #         self.next = None
 
-from collections import defaultdict
-
 class Solution:
     def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> Optional[ListNode]:
         
-        my_dict = defaultdict(ListNode)
+        s = set()
         
         while headA:
-            my_dict[headA] = headA
+            s.add(headA)
             headA = headA.next
         
         while headB:
             
-            if headB in my_dict:
+            if headB in s:
                 return headB
             else:
                 headB = headB.next
