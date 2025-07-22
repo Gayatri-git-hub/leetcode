@@ -7,7 +7,7 @@
 class Solution:
     def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> Optional[ListNode]:
         
-        # Option 2) using 2 pointers: 
+        # Option 2) using 2 pointers: Time COmplexity:  O(m + n), Space COmplexity: O(1) 
         ptr1 = headA
         ptr2 = headB
 
