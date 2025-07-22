@@ -7,14 +7,28 @@
 class Solution:
     def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> Optional[ListNode]:
         
+        # Option 2) using 2 pointers: 
+        ptr1 = headA
+        ptr2 = headB
+
+        while ptr1 != ptr2:
+             ptr1 = ptr1.next if ptr1 else headB        #Note else part.
+             ptr2 = ptr2.next if ptr2 else headA
+
+        return ptr1   
+
+
+
+
+        # Option 1) using set: Time COmplexity:  O(m + n), Space COmplexity: O(m) or O(n)   
+
         s = set()
         
         while headA:
             s.add(headA)
             headA = headA.next
         
-        while headB:
-            
+        while headB:        
             if headB in s:
                 return headB
             else:
